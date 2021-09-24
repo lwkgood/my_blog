@@ -4,6 +4,7 @@ const APPLET_PATH = '/blogs/applet'
 const VUE_PATH = '/blogs/vue'
 const TYPESCRIPT_PATH = '/blogs/typescript'
 const JAVASCRIPT_PATH = '/blogs/javascript'
+const BOOK_PATH = '/blogs/book'
 
 module.exports = {
     [GIT_PATH]: [
@@ -20,5 +21,8 @@ module.exports = {
     ],
     [JAVASCRIPT_PATH]: [
         createSideBarConfig('JavaScript 基础', JAVASCRIPT_PATH)
+    ],
+    [BOOK_PATH]: [
+        createSideBarConfig('JavaScript 面向对象编程指南', BOOK_PATH + '/book-js-oop')
     ]
 }
