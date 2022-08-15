@@ -1,16 +1,7 @@
 ---
 home: true
-heroText: Mike-Blog
-tagline: 但行好事，莫问前程
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
+heroText: Mike
+tagline: 把握当下,过好每一天
 bgImage: '/bg.png'
 bgImageStyle: {
   height: '450px'

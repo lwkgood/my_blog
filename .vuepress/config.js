@@ -1,7 +1,7 @@
 const sidebar = require('./siderbar.js');
 module.exports = {
   "title": "Mike-Blog",
-  "description": "但行好事，莫问前程",
+  "description": "每天进步一丢丢",
   "dest": "public",
   "base": "/my_blog/",
   "head": [
@@ -63,11 +63,11 @@ module.exports = {
       {
         "title": "My github",
         "desc": "Mike's github.",
-        "avatar": "",
+        "avatar": "/logo.jpg",
         "link": "https://github.com/lwkgood"
       }
     ],
-    "logo": "/logo.png",
+    "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
@@ -116,7 +116,7 @@ module.exports = {
       "meting",
       {
         "meting": {
-          // 当前服务为netease -> 网易
+          // 当前服务为netease
           "server": "tencent",
           // 类型为歌单
           "type": "playlist",
