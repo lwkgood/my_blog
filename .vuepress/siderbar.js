@@ -3,7 +3,8 @@ const GIT_PATH = '/blogs/git'
 const APPLET_PATH = '/blogs/applet'
 const VUE_PATH = '/blogs/vue'
 const JAVASCRIPT_PATH = '/blogs/javascript'
-const BOOK_PATH = '/blogs/book'
+const BOOK_JS_POINT_PATH = '/blogs/book/js-point'
+const INTERVIEW_JAVASCRIPT_PATH = '/blogs/interview/JavaScript'
 
 module.exports = {
     [GIT_PATH]: [
@@ -18,7 +19,10 @@ module.exports = {
     [JAVASCRIPT_PATH]: [
         createSideBarConfig('JavaScript 基础', JAVASCRIPT_PATH)
     ],
-    [BOOK_PATH]: [
-
+    [BOOK_JS_POINT_PATH]: [
+        createSideBarConfig('JS重难点实例精讲 笔记', BOOK_JS_POINT_PATH)
+    ],
+    [INTERVIEW_JAVASCRIPT_PATH]: [
+        createSideBarConfig('面试 JS', INTERVIEW_JAVASCRIPT_PATH)
     ]
 }
