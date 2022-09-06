@@ -5,6 +5,7 @@ const VUE_PATH = '/blogs/vue'
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const BOOK_JS_POINT_PATH = '/blogs/book/js-point'
 const INTERVIEW_JAVASCRIPT_PATH = '/blogs/interview/JavaScript'
+const ARTICLE_PATH = '/blogs/article'
 
 module.exports = {
     [GIT_PATH]: [
@@ -24,5 +25,8 @@ module.exports = {
     ],
     [INTERVIEW_JAVASCRIPT_PATH]: [
         createSideBarConfig('面试 JS', INTERVIEW_JAVASCRIPT_PATH)
+    ],
+    [ARTICLE_PATH]: [
+        createSideBarConfig('文章', ARTICLE_PATH)
     ]
 }
