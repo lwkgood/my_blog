@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Mike
-tagline: 把握当下,过好每一天
+tagline: 踏实做事，低调做人
 bgImage: '/bg.png'
 bgImageStyle: {
   height: '450px'
